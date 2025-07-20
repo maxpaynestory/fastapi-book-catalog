@@ -72,15 +72,10 @@ This project is a modern FastAPI application implementing a Book Catalog RESTful
    ```powershell
    uvicorn app.main:app --reload
    ```
-4. Run tests:
-   ```powershell
 
 ## Additional Features
 - Realistic year validation for published_year (1450 to current year)
 - All request/response schemas use Pydantic models
-   $env:PYTHONPATH = "$(Get-Location)"
-   pytest
-   ```
 
 ## Project Structure
 ## API Endpoints

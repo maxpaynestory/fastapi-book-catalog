@@ -1,0 +1,24 @@
+[project]
+name = "fastapi-book-catalog"
+version = "0.1.0"
+description = "Async FastAPI Book Catalog API for take-home test."
+authors = ["Your Name <your.email@example.com>"]
+requires-python = ">=3.10,<3.12"
+
+
+
+[tool.poetry.dependencies]
+fastapi = ">=0.110.0"
+uvicorn = ">=0.22.0"
+sqlalchemy = ">=2.0.0"
+aiosqlite = ">=0.19.0"
+pydantic = ">=2.0.0"
+
+
+[tool.poetry.dev-dependencies]
+pytest = ">=8.0.0"
+pytest-asyncio = ">=0.21.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

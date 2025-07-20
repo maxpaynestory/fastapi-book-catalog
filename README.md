@@ -93,7 +93,8 @@ This project is a modern FastAPI application implementing a Book Catalog RESTful
 - `app/models/book.py`: SQLAlchemy and Pydantic models for Book
 - `app/models/database.py`: Database setup
 - `app/models/crud_book.py`: Business logic for Book CRUD
-- `tests/test_book.py`: Integration tests for all endpoints
+- `tests/integration`: Integration tests for API endpoints
+- `tests/unit`: Unit tests for business logic (CRUD functions)
 
 
 

@@ -1,8 +1,3 @@
-# Book Catalog API - FastAPI Take-Home Test
-
-This project implements a Book Catalog RESTful API using FastAPI, async SQLAlchemy (with aiosqlite), and Pydantic. It supports full CRUD operations for books, including an async endpoint for listing all books. All endpoints are covered by integration tests.
-
-
 # FastAPI Book Catalog API
 
 This project is a modern FastAPI application implementing a Book Catalog RESTful API. It uses async SQLAlchemy with aiosqlite for database operations and follows best practices for FastAPI, Pydantic, and Python project structure.

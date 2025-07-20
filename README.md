@@ -117,7 +117,3 @@ This project is a modern FastAPI application implementing a Book Catalog RESTful
 
 ## Documentation
 - Interactive OpenAPI docs available at `/docs` when running the app
-
-## Notes
-- No user model or authentication is present (per requirements)
-- All endpoints and async logic are covered by tests
